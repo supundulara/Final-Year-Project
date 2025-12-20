@@ -1,4 +1,5 @@
 __pycache__/
 *.log
 *.pcap
-data/
+# data/
+venv/
