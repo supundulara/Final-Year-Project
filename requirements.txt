@@ -1,4 +1,12 @@
+# Core dependencies for Mininet simulations
 mininet
+
+# Data processing and analysis
 networkx
 matplotlib
 pandas
+
+# Optional: For GNN training (install separately)
+# torch
+# torch-geometric
+# scikit-learn

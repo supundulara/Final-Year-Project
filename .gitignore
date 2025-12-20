@@ -1,5 +1,9 @@
 __pycache__/
 *.log
 *.pcap
-# data/
 venv/
+
+# Keep dataset files but ignore temporary data
+data/ping_results.csv
+data/*.png
+# data/dataset/ is tracked for GNN training
