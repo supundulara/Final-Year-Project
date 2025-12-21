@@ -1,0 +1,73 @@
+{
+    "cameras": [
+        {
+            "id": "cam_01",
+            "interval": 0.1,
+            "model": "medium",
+            "packetSize": 1024,
+            "processing": "camera",
+            "zone": "exit"
+        },
+        {
+            "id": "cam_02",
+            "interval": 0.2,
+            "model": "small",
+            "packetSize": 512,
+            "processing": "edge",
+            "zone": "aisle"
+        },
+        {
+            "id": "cam_03",
+            "interval": 0.2,
+            "model": "small",
+            "packetSize": 512,
+            "processing": "edge",
+            "zone": "aisle"
+        },
+        {
+            "id": "cam_04",
+            "interval": 0.05,
+            "model": "heavy",
+            "packetSize": 2048,
+            "processing": "cloud",
+            "zone": "exit"
+        },
+        {
+            "id": "cam_05",
+            "interval": 0.2,
+            "model": "small",
+            "packetSize": 512,
+            "processing": "edge",
+            "zone": "aisle"
+        },
+        {
+            "id": "cam_06",
+            "interval": 0.2,
+            "model": "small",
+            "packetSize": 512,
+            "processing": "edge",
+            "zone": "aisle"
+        }
+    ],
+    "cloud": [
+        [
+            "id",
+            "cloud_01",
+            "bandwidth",
+            "10Gbps",
+            "delay",
+            "10ms"
+        ]
+    ],
+    "edge": [
+        [
+            "id",
+            "edge_01",
+            "bandwidth",
+            "1Gbps",
+            "delay",
+            "5ms"
+        ]
+    ],
+    "scenario": 1
+}

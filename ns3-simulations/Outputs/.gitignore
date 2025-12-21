@@ -1,0 +1,6 @@
+# ns-3 build and temp files
+build/
+*.o
+*.log
+*.pyc
+
