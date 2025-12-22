@@ -1,0 +1,68 @@
+{
+    "cameras": [
+        {
+            "id": 0,
+            "inference_delay": 0.12,
+            "model": "heavy",
+            "processing": "cloud",
+            "result_size": 1200
+        },
+        {
+            "id": 1,
+            "inference_delay": 0.05,
+            "model": "medium",
+            "processing": "edge",
+            "result_size": 500
+        },
+        {
+            "id": 2,
+            "inference_delay": 0.01,
+            "model": "small",
+            "processing": "camera",
+            "result_size": 200
+        },
+        {
+            "id": 3,
+            "inference_delay": 0.12,
+            "model": "heavy",
+            "processing": "cloud",
+            "result_size": 1200
+        },
+        {
+            "id": 4,
+            "inference_delay": 0.01,
+            "model": "small",
+            "processing": "camera",
+            "result_size": 200
+        },
+        {
+            "id": 5,
+            "inference_delay": 0.05,
+            "model": "medium",
+            "processing": "edge",
+            "result_size": 500
+        },
+        {
+            "id": 6,
+            "inference_delay": 0.12,
+            "model": "heavy",
+            "processing": "cloud",
+            "result_size": 1200
+        },
+        {
+            "id": 7,
+            "inference_delay": 0.05,
+            "model": "medium",
+            "processing": "edge",
+            "result_size": 500
+        },
+        {
+            "id": 8,
+            "inference_delay": 0.01,
+            "model": "small",
+            "processing": "camera",
+            "result_size": 200
+        }
+    ],
+    "scenario": 93
+}
