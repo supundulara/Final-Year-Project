@@ -2,6 +2,7 @@ __pycache__/
 *.log
 *.pcap
 venv/
+ns3-simulations/dataset/
 
 # Keep dataset files but ignore temporary data
 data/ping_results.csv
